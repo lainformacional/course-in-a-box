@@ -19,6 +19,23 @@ a:active {
   color: #a91193;
 }
 
+.sidebar li a:before {
+  content:"\f005";
+  font-family:FontAwesome;
+  color:d613b9;
+  position:absolute;
+  left:29px;
+  line-height:1.7;
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  border:3px solid #AAB0BF;
+  top:18px;
+  background-color:white;
+  text-align:center;
+  font-size:0.8em
+ }
+
 footer {
  padding:2em 0;
  background-color:#dcdbdb;
