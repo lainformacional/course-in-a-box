@@ -5,36 +5,24 @@ h1,
 
 footer {
  padding:2em 0;
- background-color:#707782;
- color:#F3F4F8;
+ background-color:#000;
+ color:#fff;
  text-align:center;
  font-size:12pt
 }
-footer a {
- color:#FCFCFC;
- border-bottom:1px dotted;
- text-decoration:none;
- transition:all 0.3s linear
-}
-footer a:hover {
- border:none;
- color:#FCFCFC;
- text-decoration:none;
- transition:all 0.3s linear
-}
 
 a:link {
-  color: #ff00ff;
+  color: #d613b9;
 }
 
 a:visited {
-  color: #ff00ff;
+  color: #d613b9;
 }
 
 a:hover {
-  color: #ce00ce;
+  color: #a91193;
 }
 
 a:active {
-  color: #ce00ce;
+  color: #a91193;
 }
