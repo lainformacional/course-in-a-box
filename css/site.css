@@ -18,3 +18,24 @@ a:hover {
 a:active {
   color: #ce00ce;
 }
+
+footer {
+ padding:2em 0;
+ background-color:#707782;
+ color:#F3F4F8;
+ text-align:center;
+ font-size:12pt
+}
+footer a {
+ color:#FCFCFC;
+ border-bottom:1px dotted;
+ text-decoration:none;
+ transition:all 0.3s linear
+}
+footer a:hover {
+ border:none;
+ color:#FCFCFC;
+ text-decoration:none;
+ transition:all 0.3s linear
+}
+
