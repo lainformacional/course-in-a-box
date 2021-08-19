@@ -3,14 +3,6 @@ h1,
  font-size:2.3rem
 }
 
-footer {
- padding:2em 0;
- background-color:#fff;
- color:#515665;
- text-align:center;
- font-size:12pt
-}
-
 a:link {
   color: #d613b9;
 }
@@ -25,4 +17,25 @@ a:hover {
 
 a:active {
   color: #a91193;
+}
+
+footer {
+ padding:2em 0;
+ background-color:#dcdbdb;
+ color:#515665;
+ text-align:center;
+ font-size:12pt
+}
+
+footer a {
+ color:#d613b9;
+ border-bottom:1px dotted;
+ text-decoration:none;
+ transition:all 0.3s linear
+}
+footer a:hover {
+ border:none;
+ color:#a91193;
+ text-decoration:none;
+ transition:all 0.3s linear
 }
